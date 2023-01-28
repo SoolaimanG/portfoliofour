@@ -1,0 +1,46 @@
+.project__one {
+  padding-top: 5rem;
+  text-align: center;
+}
+.project__one h2 {
+  font-size: 2.5rem;
+}
+.project__two {
+  color: var(--color-grey);
+  font-size: 1.1rem;
+  padding-top: 1rem;
+  width: 50%;
+  margin: auto;
+}
+.project__three {
+  display: flex;
+  margin-top: 2.5rem;
+}
+.project__three h3 {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 500ms;
+  cursor: pointer;
+}
+.project__three h3:hover {
+  background: var(--color-gradient);
+}
+.active {
+  background: var(--color-gradient);
+}
+.project__three h3:nth-child(2) {
+  width: 35%;
+  border: 2px solid var(--color-grey);
+}
+.project__three h3:nth-child(1) {
+  border-radius: 30px 0px 0px 30px;
+  border: 2px solid var(--color-grey);
+  width: 35%;
+}
+.project__three h3:nth-child(3) {
+  border-radius: 0px 30px 30px 0px;
+  border: 2px solid var(--color-grey);
+  width: 35%;
+}

@@ -1,0 +1,30 @@
+.footer__one {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+footer {
+  height: 40vh;
+  background: url("../../Images/footer-bg.png");
+}
+.footer__two {
+  text-align: right;
+}
+
+.footer__three {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3px;
+}
+.footer__three div {
+  padding: 1rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.175);
+}
+.footer__two h4 {
+  padding-top: 1rem;
+}
